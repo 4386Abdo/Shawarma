@@ -9,7 +9,24 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
+      },
+    },
+    build: {
+      outDir: 'dist',
+      emptyOutDir: true,
+      rollupOptions: {
+        input: './main.tsx',
+        output: {
+          codeSplitting: false,
+          entryFileNames: 'bundle.js',
+          assetFileNames: (assetInfo) => {
+            if (assetInfo.name && assetInfo.name.endsWith('.css')) {
+              return 'bundle.css';
+            }
+            return '[name][extname]';
+          },
+        },
       },
     },
     server: {
