@@ -94,7 +94,7 @@ export const Hero: React.FC = () => {
               {/* Photo Card with emerald rim glow */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-500/30 bg-stone-900 group">
                 <img
-                  src="/assets/aistudio/unnamed_50cd0a5a.png"
+                  src="./unnamed_50cd0a5a.png"
                   alt="رولات شاورما الدجاج الطازجة في شاورمر السنطة"
                   referrerPolicy="no-referrer"
                   className="w-full h-80 sm:h-96 lg:h-[450px] object-cover object-center group-hover:scale-105 transition-transform duration-500"

@@ -50,7 +50,7 @@ export const AdminDashboard: React.FC = () => {
     price: 70,
     descriptionAr: '',
     descriptionEn: '',
-    image: '/assets/aistudio/unnamed_50cd0a5a.png',
+    image: './unnamed_50cd0a5a.png',
   });
 
   // Settings form state
@@ -112,7 +112,7 @@ export const AdminDashboard: React.FC = () => {
       price: 70,
       descriptionAr: '',
       descriptionEn: '',
-      image: '/assets/aistudio/unnamed_50cd0a5a.png',
+      image: './unnamed_50cd0a5a.png',
     });
   };
 
@@ -503,11 +503,11 @@ export const AdminDashboard: React.FC = () => {
                           onChange={(e) => setFormData({ ...formData, image: e.target.value })}
                           className="w-full px-3 py-2 bg-stone-900 border border-emerald-800/60 rounded-lg text-xs text-white"
                         >
-                          <option value="/assets/aistudio/unnamed_50cd0a5a.png">رولات شاورما (Shawarma Rolls)</option>
-                          <option value="/assets/aistudio/unnamed_833981b9.jpg">بوكس عربي عائلي (Family Box)</option>
-                          <option value="/assets/aistudio/unnamed__1__cd69f9b1.jpg">طبق فتة شاورما (Rice Platter)</option>
-                          <option value="/assets/aistudio/unnamed__2__35682aec.jpg">باكت كريسبي (Crispy Bucket)</option>
-                          <option value="/assets/aistudio/unnamed__3__d885875a.jpg">فراخ مشوية عالسيخ (Grilled Chicken)</option>
+                          <option value="./unnamed_50cd0a5a.png">رولات شاورما (Shawarma Rolls)</option>
+                          <option value="./unnamed_833981b9.jpg">بوكس عربي عائلي (Family Box)</option>
+                          <option value="./unnamed__1__cd69f9b1.jpg">طبق فتة شاورما (Rice Platter)</option>
+                          <option value="./unnamed__2__35682aec.jpg">باكت كريسبي (Crispy Bucket)</option>
+                          <option value="./unnamed__3__d885875a.jpg">فراخ مشوية عالسيخ (Grilled Chicken)</option>
                         </select>
                       </div>
                     </div>

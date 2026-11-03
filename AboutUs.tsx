@@ -16,7 +16,7 @@ export const AboutUs: React.FC = () => {
               <div className="space-y-3.5">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-600/30 bg-stone-900">
                   <img
-                    src="/assets/aistudio/unnamed__3__d885875a.jpg"
+                    src="./unnamed__3__d885875a.jpg"
                     alt="فراخ مشوية على السيخ في شاورمر السنطة"
                     referrerPolicy="no-referrer"
                     className="w-full h-44 sm:h-52 object-cover hover:scale-105 transition-transform duration-500"
@@ -24,7 +24,7 @@ export const AboutUs: React.FC = () => {
                 </div>
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-600/30 bg-stone-900">
                   <img
-                    src="/assets/aistudio/unnamed__2__35682aec.jpg"
+                    src="./unnamed__2__35682aec.jpg"
                     alt="باكت كريسبي دجاج شاورمر"
                     referrerPolicy="no-referrer"
                     className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
@@ -35,7 +35,7 @@ export const AboutUs: React.FC = () => {
               <div className="space-y-3.5 pt-6">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-600/30 bg-stone-900">
                   <img
-                    src="/assets/aistudio/unnamed_833981b9.jpg"
+                    src="./unnamed_833981b9.jpg"
                     alt="بوكس شاورما عربي عائلي"
                     referrerPolicy="no-referrer"
                     className="w-full h-48 sm:h-56 object-cover hover:scale-105 transition-transform duration-500"
@@ -43,7 +43,7 @@ export const AboutUs: React.FC = () => {
                 </div>
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-600/30 bg-stone-900">
                   <img
-                    src="/assets/aistudio/unnamed__1__cd69f9b1.jpg"
+                    src="./unnamed__1__cd69f9b1.jpg"
                     alt="طبق فتة شاورما بالأرز البسمتي"
                     referrerPolicy="no-referrer"
                     className="w-full h-44 sm:h-52 object-cover hover:scale-105 transition-transform duration-500"
