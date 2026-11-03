@@ -1,0 +1,6 @@
+{
+  "name": "Shawarmer - Fast Food Restaurant El Santa",
+  "description": "الموقع الرسمي لمطعم شاورمر بالسنطة - شاورما، فراخ مشوية، باكت كريسبي ووجبات عائلية. Official website for Shawarmer restaurant in El Santa, Gharbia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
